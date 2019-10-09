@@ -1,0 +1,22 @@
+page-login {
+  background-color: aliceblue;
+  #x{
+    position: absolute;
+    top: 25%;
+    background-color: aliceblue;
+    max-width: 250px;
+   }
+  ion-content{
+    background-color: aliceblue; //I got a problem right here !! //
+  }
+  .error {
+    color: rgb(223, 62, 62);
+    font-size: 11px;
+  }
+
+  .error1 {
+    color: rgb(75, 75, 75);
+    border-bottom: 1px solid #ff0000;
+  }
+  }
+

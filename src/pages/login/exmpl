@@ -1,0 +1,18 @@
+export class SignInPage {
+  users:any;
+  myForm:FormGroup;
+  constructor(public modalCtrl: ModalController,public _myApp:MyApp,public navCtrl: NavController, public navParams: NavParams,public formBuilder: FormBuilder,public api:ApiProvider) {
+    this.myForm = formBuilder.group({
+      'input1': ['', Validators.compose([Validators.required])],
+      'input2': ['', Validators.compose([Validators.required])]
+
+
+
+
+
+    });
+  }
+
+
+   /*console.log("S "+result[1]._id)
+          localStorage.setItem("id", result[1]._id)*/

@@ -1,0 +1,58 @@
+page-home {
+#titre {
+
+  color: cadetblue;
+  position: absolute;
+  top: 67px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+}
+  #bouton{
+    max-width: 150px;
+    background-color: darkslategray;
+   position: center;
+    left: 25%;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.4);
+    border-radius: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+  }
+  #bouton :hover{
+    max-width: 150px;
+    background-color: darkslategray;
+    position: center;
+    left: 25%;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.4);
+    font-weight: 700;
+    text-transform: none;
+    background-color: #2f4d4f;
+  }
+  /*background-image: url('../../assets/imgs/business.jpg');
+  background-position: center;*/
+
+  #card1{
+  background-color:aliceblue;
+    height: 95%;
+}
+  #card2{
+    margin-top: 18%;
+}
+  #card3{
+    margin-top: 5%;
+  }
+  #id1{
+    margin-left: 35%;
+    margin-right: 20%;
+  }
+  #qst{
+    text-align: center;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+  }
+
+
+}
+
+
